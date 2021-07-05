@@ -3,18 +3,19 @@ body{
     margin: 0;
 }
 .top-banner{
-   
-    display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-position: left top;
 
 }
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+
+}
 .half-width{
     padding-left:3%;
     width: 50%;
-}
-.half-width p{
     text-align: justify;
 }
 .color-orange{
@@ -24,13 +25,23 @@ body{
     width: 80%;
 }
 .hireMeButton{
-    margin-top: 30px;
+    
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     padding: 10px 40px;
+    font-weight: 700;
     color: white;
     border-radius: 5px;
 }
 h1{
     font-size: 50px;
+}
+.position-for-img{
+    padding-right: 20px;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
 }
