@@ -36,6 +36,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .position-for-img{
     padding-right: 20px;
 }
@@ -43,5 +46,33 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+}
+.exprience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.exp-item{
+    width: 43%;
+    margin: 0 2% 0 2%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+    padding: 0 0 0 20px;
+}
+.exp-item p{
+    text-align: justify;   
+}
+#full-web-dev{
+    border-left: 7px solid aqua;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
 
+}
+#jr-web-dev{
+    border-left: 7px solid pink;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
